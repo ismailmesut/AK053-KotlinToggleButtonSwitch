@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlintogglebuttonswitch"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlintogglebuttonswitch"
         minSdk = 24
